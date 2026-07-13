@@ -60,7 +60,7 @@ What is the leakage current for an I/O pin? What is a leakage current?
 
 ---
 
-Given this [Blue LED datasheet](https://cdn-shop.adafruit.com/product-files/301/Data+sheet+FD-5TB-1.pdf), what is the smallest value resistance that can be used for the current-limiting resistor if the driving voltage is 5V DC? Consider which forward-voltage value limit (min/max) defines your worst-case limited current and calculate the minimum resistance value that works for the worst case (and therefore other cases).
+Given this ![Blue LED datasheet](images\example.png), what is the smallest value resistance that can be used for the current-limiting resistor if the driving voltage is 5V DC? Consider which forward-voltage value limit (min/max) defines your worst-case limited current and calculate the minimum resistance value that works for the worst case (and therefore other cases).
 
 (R9)
 
