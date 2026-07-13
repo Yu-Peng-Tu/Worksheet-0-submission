@@ -2,7 +2,7 @@
 
 Deadline: [instructor-set date]
 
-![xkcd "Git" comic #1666](media/xkcd-git.png)
+![xkcd "Git" comic #1666](images/xkcd-git.png)
 
 *[https://xkcd.com/1666/](https://xkcd.com/1666/)*
 
@@ -109,11 +109,11 @@ This project is built in teams. The project README recommends **pairs**: one tea
 
 Once your repository is created, you can begin to make edits in the browser, or **clone** the repository as a local copy through VS Code. One way to clone your repository is to use the VS Code search bar (Ctrl+Shift+P / Cmd+Shift+P) and use `>` to input a command. We will use **Git: Clone**.
 
-![VS Code "Git: Clone" command palette](media/vscode-git-clone.png)
+![VS Code "Git: Clone" command palette](images/vscode-git-clone.png)
 
 It will ask you to provide a repository URL, which you can copy from the GitHub web repository by clicking the green **Code** button and copying the link under **HTTPS**.
 
-![GitHub green "Code" button with HTTPS URL](media/github-clone-https.png)
+![GitHub green "Code" button with HTTPS URL](images/github-clone-https.png)
 
 Save the repository in a location you desire on your machine, then open it in VS Code. Work for this and future assignments will be completed in the `README.md` file.
 
@@ -141,9 +141,9 @@ git pull
 
 **In VS Code**, navigate to the Source Control panel (the branch icon on the left), then type a commit message in the "Message" text entry. Stage changes by pressing the **+** button for each specific change, or hover over the "Changes" dropdown and press its **+** button to stage all changes. To commit, press **Commit**, then push by pressing **Sync Changes** (which replaces the Commit button). To commit and push in one go, use the dropdown to the right of the Commit button and select **Commit and Push**. When you wish/need to pull, the Commit button will appear as **Sync Changes** — press **Sync Changes** to pull remote changes to the repository.
 
-![VS Code Source Control panel — stage and commit](media/vscode-source-control.png)
+![VS Code Source Control panel — stage and commit](images/vscode-source-control.png)
 
-![VS Code Source Control panel — sync and push](media/vscode-source-control-2.png)
+![VS Code Source Control panel — sync and push](images/vscode-source-control-2.png)
 
 ## Some Resources for Learning Git & GitHub
 
@@ -161,9 +161,9 @@ The best way to learn Git & GitHub is to use it — but these tutorials should a
 
 Add your **name(s)**, **repo URL**, and a **description of your hardware** in the README.md file. This assignment header is required in every assignment and is checked separately from the tagged rubric items below — you will lose points if this section is not filled in. Save your README.md file, and commit with the message **"Filled Assignment Header."** We will check your commit history.
 
-![Example git commit history](media/commit-history.png)
+![Example git commit history](images/commit-history.png)
 
-![Example git commit history](media/commit-history-2.png)
+![Example git commit history](images/commit-history-2.png)
 
 (S1)
 Include a screenshot of your commit history, similar to the one above, after committing with your filled assignment header.
@@ -178,7 +178,7 @@ Subsequent work in this project requires you to thoughtfully read and assess com
 
 They can be overwhelming — where should you start to look for information? This [How to Read a Datasheet](https://www.egr.msu.edu/classes/ece480/capstone/read_datasheet.pdf) PDF might help you. It breaks down various parts of a datasheet and highlights important aspects.
 
-![How to Read a Datasheet guide](media/how-to-read-datasheet.png)
+![How to Read a Datasheet guide](images/how-to-read-datasheet.png)
 
 Here's another good guide: [How to Read a Power MOSFET Datasheet](https://www.embeddedrelated.com/showarticle/809.php).
 
@@ -340,11 +340,11 @@ Only the README.md and linked files in your team git repository will be graded. 
 1. Save the image file (e.g., `screenshot.png`) in your repository folder (a `media/` or `images/` subfolder keeps things tidy).
 2. Reference it in Markdown using the image syntax:
 
-   `![Alt text](media/screenshot.png)`
+   `![Alt text](images/screenshot.png)`
 
 You can see what your markdown file looks like using the preview, which you can open with **Cmd + Shift + V** (macOS) or **Ctrl + Shift + V** (Windows) while the Markdown file is open in VS Code.
 
-![VS Code markdown preview](media/markdown-preview.png)
+![VS Code markdown preview](images/markdown-preview.png)
 
 You can also install a VS Code extension like "Markdown" by starkwang, which allows you to copy or drag-and-drop images into the markdown file and automatically create the image syntax.
 
