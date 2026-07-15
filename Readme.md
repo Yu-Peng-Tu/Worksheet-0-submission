@@ -19,6 +19,7 @@ Repository URL: github.com/zsx2711/desk-satellite.git
 Include a screenshot of your commit history, similar to the one above, after committing with your filled assignment header.
 
 (S1)
+<img width="1187" height="1288" alt="屏幕截图 2026-07-14 230026" src="https://github.com/user-attachments/assets/06a5fb5b-2dca-47e8-9dac-f913cb1c52ff" />
 
 ---
 
